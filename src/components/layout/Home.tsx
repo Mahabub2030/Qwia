@@ -57,7 +57,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold">شركة نباتات للمقاولات</h2>
                 <p className="flex items-center gap-2 text-xl text-blue-600 cursor-pointer mt-4 underline">
                   <a
-                    href="../../../public/contract-12334006 (2).pdf"
+                    href="https://drive.google.com/file/d/1B-byCpiTxgfMje-HK3EMcSeoVpsU4al8/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
