@@ -57,11 +57,12 @@ export default function Home() {
                 <h2 className="text-3xl font-bold">شركة نباتات للمقاولات</h2>
                 <p className="flex items-center gap-2 text-xl text-blue-600 cursor-pointer mt-4 underline">
                   <a
+                    className="flex items-center gap-2"
                     href="https://drive.google.com/file/d/1B-byCpiTxgfMje-HK3EMcSeoVpsU4al8/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <EyeIcon className="w-4 h-5" />
+                    <EyeIcon className="w-4 h-4" />
                     Contract preview
                   </a>
                 </p>
