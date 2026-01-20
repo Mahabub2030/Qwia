@@ -1,3 +1,4 @@
+import { EyeIcon } from "@heroicons/react/24/outline";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 flex">
@@ -53,9 +54,16 @@ export default function Home() {
           <div className="bg-white rounded-xl shadow-sm p-4 md:p-6">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
-                <h2 className="text-xl font-bold">شركة نباتات للمقاولات</h2>
-                <p className="text-sm text-blue-600 cursor-pointer mt-1">
-                  Contract preview
+                <h2 className="text-3xl font-bold">شركة نباتات للمقاولات</h2>
+                <p className="flex items-center gap-2 text-xl text-blue-600 cursor-pointer mt-4 underline">
+                  <a
+                    href="../../../public/contract-12334006 (2).pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <EyeIcon className="w-4 h-5" />
+                    Contract preview
+                  </a>
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
                   ID: 12334006 · Updated: 03/06/2025
