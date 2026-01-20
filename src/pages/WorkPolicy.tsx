@@ -1,3 +1,5 @@
+import logo from "../../public/image.png";
+
 export default function WorkPolicy() {
   return (
     <div className="min-h-screen bg-gray-50 flex justify-center px-4 py-8">
@@ -17,11 +19,7 @@ export default function WorkPolicy() {
             {/* Fake document preview */}
             <div className="w-full max-w-3xl mx-auto p-6 md:p-10 text-center">
               <div className="mb-6">
-                <img
-                  src="https://dummyimage.com/120x60/ffffff/000000&text=Logo"
-                  alt="logo"
-                  className="mx-auto"
-                />
+                <img src={logo} alt="logo" className="mx-auto" />
               </div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-700 mb-4">
                 شهادة اعتماد لائحة تنظيم العمل
